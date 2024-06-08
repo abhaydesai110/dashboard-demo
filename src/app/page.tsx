@@ -2,7 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <main>Abhay</main>
+    <main className=''>
+      setup done...starting.... 
+    </main>
   )
 }
 
