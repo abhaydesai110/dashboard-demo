@@ -59,7 +59,7 @@ const config: Config = {
           dark: "#01183A",
           darkPlus: "#021C44",
           gray: "#444444",
-          grayLight: "#D9D9D9",
+          grayLight: "#f4f5f7",
           ceil: "#8ba1c4",
           jpIndigo: "#283a56",
         },
