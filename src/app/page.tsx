@@ -25,54 +25,54 @@ const page = () => {
             <Image className=" h-16" src={Logo} alt="" />
           </div>
           <div className="h-7/12  py-2">
-            <ul className="text-xl space-y-2">
+            <ul className=" space-y-2 anim">
               <li
                 className={`w-full px-4 py-2 rounded flex items-center ${
                   menu ? "" : "justify-center"
                 }   space-x-3 text-white bg-addey-primary`}
               >
-                <span className="flex icon-home "></span>
-                <h6 className={`${menu ? "" : "hidden"}`}>Home</h6>
+                <span className="flex icon-home p-1 text-xl"></span>
+                <div className={`${menu ? "" : "hidden"}`}>Home</div>
               </li>
               <li
                 className={`w-full px-4 py-2 rounded flex items-center ${
                   menu ? "" : "justify-center"
                 }   space-x-3 hover:bg-addey-primary/10 text-[#8A92A6] anim`}
               >
-                <span className="flex icon-earth  "></span>
-                <h6 className={`${menu ? "" : "hidden"}`}>Earth</h6>
+                <span className="flex icon-earth p-1  text-xl"></span>
+                <div className={`${menu ? "" : "hidden"}`}>Earth</div>
               </li>
               <li
                 className={`w-full px-4 py-2 rounded flex items-center ${
                   menu ? "" : "justify-center"
                 }   space-x-3 hover:bg-addey-primary/10 text-[#8A92A6] anim`}
               >
-                <span className="flex icon-apple"></span>
-                <h6 className={`${menu ? "" : "hidden"}`}>Apple</h6>
-              </li>
-              <li
-                className={`w-full px-4 py-2 rounded flex items-center ${
-                  menu ? "" : "justify-center"
-                }   space-x-3 hover:bg -addey-primary/10 text-[#8A92A6] anim`}
-              >
-                <span className="flex icon-heart  "></span>
-                <h6 className={`${menu ? "" : "hidden"}`}>Heart</h6>
+                <span className="flex icon-apple p-1 text-xl"></span>
+                <div className={`${menu ? "" : "hidden"}`}>Apple</div>
               </li>
               <li
                 className={`w-full px-4 py-2 rounded flex items-center ${
                   menu ? "" : "justify-center"
                 }   space-x-3 hover:bg-addey-primary/10 text-[#8A92A6] anim`}
               >
-                <span className="flex icon-gift  "></span>
-                <h6 className={`${menu ? "" : "hidden"}`}>Gift</h6>
+                <span className="flex icon-heart p-1 text-xl"></span>
+                <div className={`${menu ? "" : "hidden"}`}>Heart</div>
               </li>
               <li
                 className={`w-full px-4 py-2 rounded flex items-center ${
                   menu ? "" : "justify-center"
                 }   space-x-3 hover:bg-addey-primary/10 text-[#8A92A6] anim`}
               >
-                <span className="flex icon-flag  "></span>
-                <h6 className={`${menu ? "" : "hidden"}`}>Fleg</h6>
+                <span className="flex icon-gift p-1  text-xl"></span>
+                <div className={`${menu ? "" : "hidden"}`}>Gift</div>
+              </li>
+              <li
+                className={`w-full px-4 py-2 rounded flex items-center ${
+                  menu ? "" : "justify-center"
+                }   space-x-3 hover:bg-addey-primary/10 text-[#8A92A6] anim`}
+              >
+                <span className="flex icon-flag p-1  text-xl"></span>
+                <div className={`${menu ? "" : "hidden"}`}>Fleg</div>
               </li>
             </ul>
           </div>
